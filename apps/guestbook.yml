@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: guestbook-team-fe
   namespace: argocd
-  finalizers:
-  - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
